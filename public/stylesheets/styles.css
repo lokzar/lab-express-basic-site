@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body{
+    margin: 0 auto;
+    background-color: rgb(5, 5, 75);
+}
+
+#navHome a{
+    text-decoration: solid;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+#navHome ul{
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#navHome li{
+    padding: 10px;
+}
+
+#header{
+    margin: 0 auto;
+    padding:0 auto;
+    height: 400px;
+    background-image: url("/img/noche-estrellada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    font-family: 'Titan One', cursive;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 170px;
+    color: white;
+    text-align: center;
+}
+.h1about{
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.h1work{
+    font-family: 'Titan One', cursive;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+img{
+    padding: 10px;
+}
+
+
+
